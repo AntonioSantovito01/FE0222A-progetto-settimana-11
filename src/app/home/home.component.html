@@ -1,0 +1,13 @@
+<div class="prodotti">
+  <ng-container *ngFor="let card of prodotti">
+    <div class="card border border-2 border-dark" style="width: 18rem;">
+         <img src="{{card.img}}" class="card-img-top" alt="phone photo">
+      <div class="card-body">
+        <h5 class="card-title">{{card.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Phones-commerce</h6>
+        <button class="btn btn-primary" [routerLink]="['/',card.id]">Dettagli</button>
+      </div>
+    </div>
+  </ng-container>
+
+  </div>

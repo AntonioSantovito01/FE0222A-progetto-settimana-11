@@ -1,0 +1,20 @@
+
+<ng-container *ngIf="prodotti">
+<div class="card m-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{prodotti.img}}" class="img-fluid rounded-start mt-5" alt="phone photo">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{prodotti.name}}</h5>
+        <h6 class="card-text">{{prodotti.price}}€</h6>
+        <p class="card-text">{{prodotti.description}}</p>
+        <a href="#" (click)="aggiungiElementoCarello(prodotti, $event)" class="btn btn-primary text-end">Aggiungi al carrello</a>
+        <button class="btn btn-success mt-3" routerLink="/">Torna alla pagina home per continuare gli acquisti</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</ng-container>

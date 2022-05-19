@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Phone XL",
+      "price": 799,
+      "description": "Doppia fotocamera posteriore da 12 MP disponibile per foto e video di base. Con processore Hexa-core 2.39 GHz (2x Monsoon + 4x Mistral) e 64/256 GB, 3 GB RAM. La batteria è da 2716 mAh.",
+      "img": "assets/img/XL.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Phone Mini",
+      "price": 699,
+      "description": "La velocità del 5G. A14 Bionic, il chip più veloce mai visto su uno smart­phone. Un display OLED edge-to-edge. La protezione del Ceramic Shield, per una resistenza alle cadute quattro volte superiore. E la modalità Notte su ogni fotocamera. iPhone 12 ha proprio tutto",
+
+      "img": "assets/img/mini.webp"
+    },
+    {
+      "id": 3,
+      "name": "Phone Standard",
+      "price": 299,
+      "description": "La densità di pixel del display TFT di smartphone è di 165 ppi. Questo grazie ad una risoluzione di 320x480 pixel su di una diagonale di 3,5 pollici.",
+      "img": "assets/img/standard.jpg"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13",
+      "price": 839,
+      "description": "Apple iPhone 13 è l'ultima uscita di casa Apple, apparentemente simile al suo predecessore, ma in realtà molto innovativo per display, batteria e fotocamera.",
+      "img": "assets/img/13.jpg"
+    },
+    {
+      "id": 4,
+      "name": "iPhone SE",
+      "price": 529,
+      "description": "Le caratteristiche tecniche di iPhone SE modello 2020 sono praticamente quelle di iPhone 8, ad eccezione del più aggiornato e performante chip Apple A13 degli iPhone 2019. Il sistema operativo è iOS 15.5.",
+      "img": "assets/img/SE.jpg"
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}
